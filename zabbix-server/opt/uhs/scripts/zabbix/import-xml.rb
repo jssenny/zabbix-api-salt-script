@@ -1,7 +1,7 @@
 #!/opt/uhs/cots/ruby/bin/ruby
 #-*- coding: UTF-8 -*-
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-Dir.chdir("/opt/ruby/scripts/zabbix/beta-2.0")
+Dir.chdir("/opt/uhsy/scripts/zabbix")
 path = Dir.pwd
 
 #require "rubygems"

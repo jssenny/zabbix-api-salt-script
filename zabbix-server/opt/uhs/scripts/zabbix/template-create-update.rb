@@ -1,7 +1,7 @@
 #!/opt/uhs/cots/ruby/bin/ruby
 #-*- coding: UTF-8 -*-
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-Dir.chdir("/srv/salt/zabbix/zabbix-server/opt/uhs/scripts/zabbix")
+Dir.chdir("/opt/uhs/scripts/zabbix")
 path = Dir.pwd
  
 # change the path to current version folder

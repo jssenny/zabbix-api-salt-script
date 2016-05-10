@@ -1,0 +1,6 @@
+jason ALL = NOPASSWD: /user/sbin/ss
+jason ALL = NOPASSWD: /bin/netstat
+zabbix ALL = NOPASSWD: /user/sbin/ss
+zabbix ALL = NOPASSWD: /bin/netstat
+
+

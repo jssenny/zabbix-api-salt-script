@@ -15,10 +15,9 @@ template_xtun = [
   }
 ]
 
-template_xtun[0]["temps"][0]["apps"] += app_xtun
-template_xtun[0]["temps"][0]["apps"] += app_notifym
-template_xtun[0]["temps"][0]["apps"] += app_notifyd
-template_xtun[0]["temps"][0]["apps"] += app_webauth
+template_xtun[0]["temps"][0]["apps"] += app_exmaple
+# add new application with items here
+# template_xtun[0]["temps"][0]["apps"] += app_new
 
 return template_xtun
 end
